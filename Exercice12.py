@@ -15,3 +15,7 @@ if any(c.islower() for c in mot_de_passe):
     print('le mot de passe contient au moins une minuscule')
 else:
     print('le mot de passe doit contenir au moins une minuscule')
+if any(c.isnumeric() for c in mot_de_passe):
+    print('le mot de passe contient au moins un chiffre')
+else:
+    print('le mot de passe doit contenir au moins un chiffre')
