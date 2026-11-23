@@ -11,3 +11,7 @@ if any(c.isupper() for c in mot_de_passe):
     print('le mot de passe contient au moins une majuscule')
 else:
     print('le mot de passe doit contenir au moins une majuscule')
+if any(c.islower() for c in mot_de_passe):
+    print('le mot de passe contient au moins une minuscule')
+else:
+    print('le mot de passe doit contenir au moins une minuscule')
